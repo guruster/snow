@@ -1,0 +1,15 @@
+.zoom-in-zoom-out {
+    animation: zoom-in-zoom-out 1.5s ease-out infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    50% {
+      transform: translate(0px, -20px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
